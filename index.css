@@ -1,0 +1,119 @@
+body {
+    background-color: #d1d1d1;
+}
+div {
+    background-color: white;
+}
+
+.post {
+    margin-top: 5%;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px !important;
+    overflow: hidden;
+  }
+
+.post-header{
+    padding: 5px 5px 5px 10px;
+    max-height: fit-content;
+}
+
+#header {
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+    line-height: normal;
+}
+.profile-pic {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+.profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.user-data {
+    justify-content: center;
+    align-items: center;
+}
+.user-data p {
+    margin: 0;
+}
+.more-icon {
+    text-align: center;
+    text-justify: center;
+    float: right;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.material-symbols-outlined {
+    font-size: 30px !important;
+    line-height: 1.6 !important;
+}
+.post-image {
+    overflow: hidden;
+    max-height: 400px;
+    min-height: 250px;
+    max-width: 40vw;
+    min-width: 30vw;
+}
+.post-image img {
+    height: 45vh;
+    align-self: center;
+}
+.post-body{
+    padding: 10px;
+}
+.post-body-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-justify: center;
+}
+.left-icons {
+    display: flex;
+}
+#save {
+    float: right;
+}
+.post-body-likes{
+    max-height: fit-content;
+    margin: 10px;
+}
+.post-body-likes p {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.post-body-text{
+    max-height: fit-content;
+    margin: 10px;
+    
+}
+.post-body-text p {
+    margin-top: 5px;
+    margin-bottom:16px;
+}
+b{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
